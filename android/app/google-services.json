@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "217599773757",
+    "firebase_url": "https://hukum-c3925-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hukum-c3925",
+    "storage_bucket": "hukum-c3925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217599773757:android:8852e62185fae0a5e36e54",
+        "android_client_info": {
+          "package_name": "com.example.myfirstproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217599773757-ri5f3gomr829gd719mmstk2oroljub9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIlcxoudOiqNrGnzJM-QOh11vuCnEK_BI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217599773757-ri5f3gomr829gd719mmstk2oroljub9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
