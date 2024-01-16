@@ -1,0 +1,7 @@
+{
+  "image": "assets/splashscreen1.jpg",
+  "color": "#42a5f5",
+  "android": true,
+  "ios": true,
+  "grayscale": false
+}

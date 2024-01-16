@@ -1,0 +1,106 @@
+name: Hukum
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.4.0
+  firebase_auth: ^4.16.0
+  date_format: ^2.0.0
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9 # Add the latest version of flutter_svg here
+  google_sign_in: ^6.2.1
+  firebase_database: ^10.4.0
+  firebase_auth_platform_interface: ^7.0.9
+  video_player: ^2.4.1
+  chewie: ^1.2.2
+  cached_network_image: ^3.2.0
+
+
+
+#  firebase_database: ^12.2.0
+
+
+
+dev_dependencies:
+  flutter_native_splash: ^2.3.9
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+#  google_sign_in: ^5.0.7
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+  assets:
+    - assets/fonts/NotoSans-Regular.ttf
+    - assets/fonts/NotoSans-Bold.ttf
+    - assets/splashscreen1.jpg
+#    - assets/welcome_image.jpg
+    - assets/welcome_image2.jpg
+    - assets/signinbackground.jpg
+    - assets/welcome_image3.jpg
+    - assets/icons/icon-192.png
+    - assets/icons/
+    - assets/ic_launcher.jpg
+    - assets/welcome_image1.jpg
+    - assets/signinbackground2.jpg
+    - assets/email_icon.svg
+    - assets/facebook_icon.svg
+    - assets/google_icon.svg
+    - assets/phone_icon.svg
+    - assets/icon-192.png
+    - assets/get_started_motion.mp4
+    - assets/get_started_motion-gif.gif
+
+
+
+
+
+
+
+
+
+
+#
+#
+#    - packages/auth_buttons/images/default/apple.svg
+#    - packages/auth_buttons/images/default/email.svg
+#    - packages/auth_buttons/images/default/facebook.svg
+#    - packages/auth_buttons/images/default/github_black.svg
+#    - packages/auth_buttons/images/default/google.svg
+#    - packages/auth_buttons/images/default/huawei.svg
+#    - packages/auth_buttons/images/default/microsoft.svg
+#    - packages/auth_buttons/images/default/twitter.svg
+#
+#    - packages/auth_buttons/images/outlined/apple.svg
+#    - packages/auth_buttons/images/outlined/email.svg
+#    - packages/auth_buttons/images/outlined/facebook.svg
+#    - packages/auth_buttons/images/outlined/github.svg
+#    - packages/auth_buttons/images/outlined/google.svg
+#    - packages/auth_buttons/images/outlined/huawei.svg
+#    - packages/auth_buttons/images/outlined/microsoft.svg
+#    - packages/auth_buttons/images/outlined/twitter.svg
+#
+#    - packages/auth_buttons/images/secondary/apple.svg
+#    - packages/auth_buttons/images/secondary/email.svg
+#    - packages/auth_buttons/images/secondary/facebook.svg
+#    - packages/auth_buttons/images/secondary/github.svg
+#    - packages/auth_buttons/images/secondary/google.svg
+#    - packages/auth_buttons/images/secondary/huawei.svg
+#    - packages/auth_buttons/images/secondary/microsoft.svg
+#    - packages/auth_buttons/images/secondary/twitter.svg
+#
+#
