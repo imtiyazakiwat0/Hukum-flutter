@@ -10,7 +10,7 @@ class WelcomeScreen extends StatelessWidget {
         children: [
           // Background Image
           Image.asset(
-            'assets/get_started_motion-gif.gif', // Use Image.asset for local assets
+            'assets/welcome_image_with_joker.jpg', // Updated image asset
             fit: BoxFit.cover,
           ),
           // Header Text
@@ -24,7 +24,7 @@ class WelcomeScreen extends StatelessWidget {
                 fontFamily: 'NotoSans',
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
-                color: Colors.blue,
+                color: Colors.yellow,
               ),
               textAlign: TextAlign.center,
             ),
