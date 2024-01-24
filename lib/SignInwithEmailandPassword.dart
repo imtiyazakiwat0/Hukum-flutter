@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
+import 'package:shared_preferences/shared_preferences.dart';
 import 'GameHomePage.dart';
 import 'firebase_options.dart';
 
@@ -33,7 +33,6 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   bool _isLoading = false;
-  String _message = '';
 
   Future<void> _signInWithEmailAndPassword(BuildContext context) async {
     setState(() {
@@ -45,6 +44,10 @@ class _LoginPageState extends State<LoginPage> {
         email: _emailController.text.trim(),
         password: _passwordController.text.trim(),
       );
+
+      // Save login status
+      await _saveLoginStatus();
+
       _showSuccessDialog(context, 'Sign In successful');
       // Redirect to homepage
       Navigator.pushReplacement(
@@ -64,6 +67,11 @@ class _LoginPageState extends State<LoginPage> {
         _isLoading = false;
       });
     }
+  }
+
+  Future<void> _saveLoginStatus() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('isUserLoggedIn', true);
   }
 
   void _showSuccessDialog(BuildContext context, String message) {
@@ -306,5 +314,3 @@ class _SignUpPageState extends State<SignUpPage> {
     );
   }
 }
-
-
